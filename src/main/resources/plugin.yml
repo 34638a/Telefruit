@@ -1,0 +1,16 @@
+name: Telefruit
+version: ${project.version}
+main: com.gamingutils.telefruit.telefruit.Telefruit
+api-version: 1.16
+prefix: Telefruit
+authors: [ Iam34638a ]
+description: A vanilla take on the waystones mod.
+
+commands:
+  unboundtelefruit:
+    description: Create a unbound teleportation fruit that can be anchored to a banner.
+    usage: /<command>
+
+  boundtelefruit:
+    description: Create a teleportation fruit and gives it to a specifed player
+    usage: /<command> player amount{default=1} x{default=player.x} y{default=player.y} z{default=player.z} world{default=player.world} anchorMessage{default="Command Generated"} unlimitedUses{default=false}
